@@ -1,0 +1,38 @@
+# Build outputs
+*.zip
+*.xpi
+*.py
+build/
+2c.js
+
+# Cursor files
+.cursor/
+
+# Node modules
+node_modules/
+.wrangler/
+server/node_modules/
+server/dist/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log 
+
+# Local environment files
+.dev.vars
+server/.env
+server/data/*.db
+server/data/*.db-shm
+server/data/*.db-wal
